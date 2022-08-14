@@ -5,5 +5,6 @@ export default defineNuxtConfig({
 	alias: {
 		'@config': 'assets/config.sass',
 	},
-	css: ['boxicons/css/boxicons.min.css', 'assets/index.sass'],
+	css: ['boxicons/css/boxicons.min.css', 'assets/index.sass', 'assets/main.css'],
+	modules: ['@nuxtjs/tailwindcss'],
 })

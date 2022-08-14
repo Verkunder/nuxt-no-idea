@@ -169,11 +169,12 @@
 .homeContent
     position: absolute
     height: 100%
-    width: calc( 99% - 78px )
+    width: calc( 100% - 78px )
     left: 78px
     +poppins-m(25px, 150%)
     color: #1b1b31
-    margin: 12px
+    background: #040019
+    padding: 12px
     transition: all 0.3s ease
     
 .active
@@ -200,5 +201,5 @@
         left: 88%
 
 .sidebar.active ~ .homeContent
-    width: calc( 99% - 240px )
+    width: calc( 100% - 240px )
     left: 240px
