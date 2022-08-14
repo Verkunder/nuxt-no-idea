@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <Header />
-        <div class="homeContent">
-            <HomeContent />
-        </div>
+    <Header />
+    <div class="homeContent">
+        <HomeContent />
     </div>
 </template>
 
